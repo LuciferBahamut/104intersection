@@ -14,4 +14,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+int error_handling(int ac, char **av);
+void display_help(void);
+
 #endif

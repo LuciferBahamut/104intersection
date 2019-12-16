@@ -7,7 +7,9 @@
 
 NAME	=	104intersection
 
-SRC	=	src/main.c
+SRC	=	src/main.c \
+		src/error_handling.c \
+		src/display_help.c
 
 CC	=	gcc
 
