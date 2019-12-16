@@ -11,6 +11,4 @@ int error_handling(int ac, char **av)
         return (0);
     else
         return (1);
-    if (av[0][0] == '-' && av[0][1] == 'h')
-        return (0);
 }
