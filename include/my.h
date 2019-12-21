@@ -1,4 +1,3 @@
-
 /*
 ** EPITECH PROJECT, 2019
 ** my.h
@@ -19,5 +18,9 @@ void display_help(void);
 int calc_sphere(int *t);
 int calc_cylinder(int *t);
 int calc_cone(int *t);
+void compute_equa_sol1(float t, int *list);
+void compute_equa_sol2(float t, float t2, int *list);
+void compute_des(int *equa, int *list);
+int *compute_quad_eq(int *t);
 
 #endif

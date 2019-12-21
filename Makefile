@@ -12,7 +12,10 @@ SRC	=	src/main.c \
 		src/display_help.c \
 		src/sphere.c \
 		src/cylinder.c \
-		src/cone.c
+		src/cone.c \
+		src/compute_des.c \
+		src/compute_equa.c \
+		src/compute_quad_eq.c
 
 CC	=	gcc
 
