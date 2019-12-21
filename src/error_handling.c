@@ -19,4 +19,6 @@ int error_handling(int ac, char **av)
         return (1);
     if (av[8][0] == '-')
         return (1);
+    if(av[5][0] == '0' && av[6][0] == '0' && av[7][0] == '0')
+        return (1);
 }

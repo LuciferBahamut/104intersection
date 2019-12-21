@@ -16,5 +16,8 @@
 
 int error_handling(int ac, char **av);
 void display_help(void);
+int calc_sphere(int *t);
+int calc_cylinder(int *t);
+int calc_cone(int *t);
 
 #endif

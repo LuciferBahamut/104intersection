@@ -9,7 +9,10 @@ NAME	=	104intersection
 
 SRC	=	src/main.c \
 		src/error_handling.c \
-		src/display_help.c
+		src/display_help.c \
+		src/sphere.c \
+		src/cylinder.c \
+		src/cone.c
 
 CC	=	gcc
 

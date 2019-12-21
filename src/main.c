@@ -19,6 +19,12 @@ int main(int ac, char **av)
     }
     for (int i = 1; i < ac; i++)
         list[i - 1] = atoi(av[i]);
+    if (list[0] == 1)
+        calc_sphere(list);
+    if (list[0] == 2)
+        calc_cylinder(list);
+    if (list[0] == 3)
+        calc_cone(list);
     free(list);
     return (0);
 }
