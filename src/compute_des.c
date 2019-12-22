@@ -18,8 +18,8 @@ void compute_des(int *equa, int *list)
 
     if (det > 0) {
         printf("2 intersection points:\n");
-        res = (-b + sqrt(pow(b, 2) - (4 * (a * c)))) / (2 * a);
-        res_b = (-b - sqrt(pow(b, 2) - (4 * (a * c)))) / (2 * a);
+        res = (-b + sqrt(det)) / (2 * a);
+        res_b = (-b - sqrt(det)) / (2 * a);
         compute_equa_sol2(res, res_b, list);
     }
     else if (det == 0) {
