@@ -33,11 +33,8 @@ int *compute_quad_eq_cn(int *t)
     float angle = (t[7] * PI) / 180;
     float r = pow(tan(angle), 2);
 
-    res[0] = pow(t[4], 2) + pow(t[5], 2) - pow(t[6], 2);
-    res[0] = res[0] / r;
-    res[1] = ((t[1] * t[4]) + (t[2] * t[5]) - (t[3] * t[6])) * 2;
-    res[1] = res[1] / r;
-    res[2] = (pow(t[1], 2) + pow(t[2], 2) - pow(t[3], 2));
-    res[2] = res[2] / r;
+    res[0] = pow(t[4], 2) + pow(t[5], 2) - (pow(t[6], 2) * r);
+    res[1] = ((t[1] * t[4]) + (t[2] * t[5]) - ((t[3] * t[6]) * r)) * 2;
+    res[2] = pow(t[1], 2) + pow(t[2], 2) - (pow(t[3], 2) * r);
     return (res);
 }
