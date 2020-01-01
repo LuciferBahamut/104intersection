@@ -9,7 +9,7 @@
 
 int calc_cylinder(int *t)
 {
-    int *equ = compute_quad_eq_c(t);
+    float *equ = compute_quad_eq_c(t);
 
     printf("Cylinder of radius %d\n", t[7]);
     printf("Line passing through the point (%d, %d, %d) ", t[1], t[2], t[3]);

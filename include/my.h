@@ -21,9 +21,9 @@ int calc_cylinder(int *t);
 int calc_cone(int *t);
 void compute_equa_sol1(float t, int *list);
 void compute_equa_sol2(float t, float t2, int *list);
-void compute_des(int *equa, int *list);
-int *compute_quad_eq_s(int *t);
-int *compute_quad_eq_c(int *t);
-int *compute_quad_eq_cn(int *t);
+void compute_des(float *equa, int *list);
+float *compute_quad_eq_s(int *t);
+float *compute_quad_eq_c(int *t);
+float *compute_quad_eq_cn(int *t);
 
 #endif

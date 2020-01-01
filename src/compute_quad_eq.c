@@ -7,9 +7,9 @@
 
 #include "my.h"
 
-int *compute_quad_eq_s(int *t)
+float *compute_quad_eq_s(int *t)
 {
-    int *res = malloc(3 * sizeof(int));
+    float *res = malloc(3 * sizeof(int));
 
     res[0] = pow(t[4], 2) + pow(t[5], 2) + pow(t[6], 2);
     res[1] = ((t[1] * t[4]) + (t[2] * t[5]) + (t[3] * t[6])) * 2;
@@ -17,9 +17,9 @@ int *compute_quad_eq_s(int *t)
     return (res);
 }
 
-int *compute_quad_eq_c(int *t)
+float *compute_quad_eq_c(int *t)
 {
-    int *res = malloc(3 * sizeof(int));
+    float *res = malloc(3 * sizeof(int));
 
     res[0] = pow(t[4], 2) + pow(t[5], 2);
     res[1] = ((t[1] * t[4]) + (t[2] * t[5])) * 2;
@@ -27,14 +27,14 @@ int *compute_quad_eq_c(int *t)
     return (res);
 }
 
-int *compute_quad_eq_cn(int *t)
+float *compute_quad_eq_cn(int *t)
 {
-    int *res = malloc(3 * sizeof(int));
+    float *res = malloc(3 * sizeof(int));
     float angle = (t[7] * PI) / 180;
     float r = pow(tan(angle), 2);
 
     res[0] = pow(t[4], 2) + pow(t[5], 2) - (pow(t[6], 2) * r);
-    res[1] = ((t[1] * t[4]) + (t[2] * t[5]) - ((t[3] * t[6]) * r)) * 2;
+    res[1] = (2 * t[1] * t[4]) + (2 * t[2] * t[5]) - ((2 * t[3] * t[6]) * r);
     res[2] = pow(t[1], 2) + pow(t[2], 2) - (pow(t[3], 2) * r);
     return (res);
 }

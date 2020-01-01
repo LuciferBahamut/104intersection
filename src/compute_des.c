@@ -7,12 +7,12 @@
 
 #include "my.h"
 
-void compute_des(int *equa, int *list)
+void compute_des(float *equa, int *list)
 {
-    int a = equa[0];
-    int b = equa[1];
-    int c = equa[2];
-    int det = pow(b, 2) - (4 * (a * c));
+    float a = equa[0];
+    float b = equa[1];
+    float c = equa[2];
+    float det = pow(b, 2) - (4 * (a * c));
     float res;
     float res_b;
 

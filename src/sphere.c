@@ -9,7 +9,7 @@
 
 int calc_sphere(int *t)
 {
-    int *equ = compute_quad_eq_s(t);
+    float *equ = compute_quad_eq_s(t);
 
     printf("Sphere of radius %d\n", t[7]);
     printf("Line passing through the point (%d, %d, %d) ", t[1], t[2], t[3]);
