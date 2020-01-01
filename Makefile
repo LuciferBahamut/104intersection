@@ -2,7 +2,7 @@
 ## EPITECH PROJECT, 2019
 ## makefile
 ## File description:
-## 103cipher
+## 104
 ##
 
 NAME	=	104intersection

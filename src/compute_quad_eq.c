@@ -30,7 +30,7 @@ float *compute_quad_eq_c(int *t)
 float *compute_quad_eq_cn(int *t)
 {
     float *res = malloc(3 * sizeof(int));
-    float angle = (t[7] * PI) / 180;
+    float angle = (t[7] * M_PI) / 180;
     float r = pow(tan(angle), 2);
 
     res[0] = pow(t[4], 2) + pow(t[5], 2) - (pow(t[6], 2) * r);

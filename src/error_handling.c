@@ -13,7 +13,7 @@ int error_handling2(int ac, char **av)
 
     if (av[8][0] == '-')
         return (1);
-    if (temp > 360)
+    if (temp > 180)
         return (1);
 }
 int error_handling(int ac, char **av)
