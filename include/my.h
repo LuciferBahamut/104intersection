@@ -7,7 +7,6 @@
 
 #ifndef MY_H_
 #define MY_H_
-#define PI 3.1415926535
 
 #include <math.h>
 #include <stdio.h>
@@ -16,6 +15,7 @@
 
 int error_handling(int ac, char **av);
 void display_help(void);
+int intersection(int ac, char **av);
 int calc_sphere(int *t);
 int calc_cylinder(int *t);
 int calc_cone(int *t);
