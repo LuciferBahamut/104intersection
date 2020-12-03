@@ -1,16 +1,16 @@
-<h1>104intersection</h1>
-<h3>{EPITECH} -- First year -- Semester 1 -- fourth maths project</h3>
+# 104intersection
+### {EPITECH} -- First year -- Semester 1 -- fourth maths project
 
-<p>1st semester Maths unit : Grade A<p>
+1st semester Maths unit : Grade A
 
-<p>104intersection -- Without Crash<p>
+| Category | Percentage | Number of tests | Crash ? |
+|:--------:|:----------:|:---------------:|:-------:|
+|   Rigor  |    100 %   |     19 / 19     |    x    |
+|  Sphere  |    100 %   |      8 / 8      |    x    |
+| Cylinder |   88,9 %   |      8 / 9      |    x    |
+|   Cone   |    70 %    |      7 / 10     |    x    |
+|  Results |   91,3 %   |     41 / 45     |    x    |
 
-<p>Result : 91,3 %<p>
-  <li>Rigor : 100 % -- 19 / 19</li>
-  <li>Sphere : 100 % -- 8 / 8</li>
-  <li>Cylinder : 88,9 % -- 8 / 9</li>
-  <li>Cone : 70 % -- 7 / 10</li>
-  <p></p>
-<p>Beware of -42 for Epitech students !</p>
+Beware of -42 for Epitech students !
 
-<p>[Group] Made with Archibald Roulet <a href="https://github.com/Sh4llower">son GitHub</a></p>
+[Group] Made with Archibald Roulet [son GitHub](https://github.com/Sh4llower")
